@@ -1,3 +1,10 @@
 title: "Zo-Dns"
 description: "sit pls, ty"
 theme: minima
+
+# خيارات القالب
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed
