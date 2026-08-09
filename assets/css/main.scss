@@ -1,20 +1,15 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-.author__avatar {
-  text-align: center;
-  
-  img {
-    max-width: 180px !important;
-    width: 180px !important;
-    height: 180px !important;
-    min-width: 180px !important;
-    min-height: 180px !important;
-    border-radius: 50% !important;
-    object-fit: cover !important;
-    display: inline-block !important;
-    margin-bottom: 15px !important;
-  }
+/* استهداف الصورة بكل الطرق الممكنة داخل الملف الشخصي */
+.sidebar .author__avatar img,
+.author__avatar img,
+div.author__avatar img {
+  max-width: 180px !important;
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
 }
 
 @media (min-width: 64em) {
