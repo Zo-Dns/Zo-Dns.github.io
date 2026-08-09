@@ -1,16 +1,13 @@
-// هذا الجزء (Front Matter) ضروري جداً لكي يقوم Jekyll بمعالجة الملف
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-.author__avatar {
-  img {
-    max-width: 200px;
-    width: 100%;      
-    height: auto;     
-    border-radius: 50%;
-    margin-bottom: 20px; 
-  }
+.author__avatar img {
+  max-width: 200px !important;
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 64em) {
