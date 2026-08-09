@@ -1,7 +1,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* فرض المقاسات الجديدة على حاوية الصورة والصورة نفسها */
 .author__avatar {
   text-align: center;
   
