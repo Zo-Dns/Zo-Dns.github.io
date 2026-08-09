@@ -1,26 +1,20 @@
----
-# هذا الجزء (Front Matter) ضروري جداً لكي يقوم Jekyll بمعالجة الملف
----
+// هذا الجزء (Front Matter) ضروري جداً لكي يقوم Jekyll بمعالجة الملف
 
-// استيراد التنسيقات الأصلية لقالب Minimal Mistakes
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-// --- تعديلاتنا المخصصة ---
-
-// زيادة حجم الصورة الشخصية في الشريط الجانبي
 .author__avatar {
   img {
-    max-width: 150px; // الحجم الجديد للصورة (يمكنك تجربة 160px أو 180px)
-    width: 100%;       // لضمان التناسق
-    height: auto;     // للحفاظ على الأبعاد
-    border-radius: 50%; // لإبقاء الصورة دائرية
+    max-width: 200px;
+    width: 100%;      
+    height: auto;     
+    border-radius: 50%;
+    margin-bottom: 20px; 
   }
 }
 
-// تعديل مكان النص ليتناسب مع الحجم الجديد
-@media (min-width: 64em) { // للشاشات الكبيرة
+@media (min-width: 64em) {
   .author__content {
-    padding-left: 0; // توسيع المساحة
+    padding-left: 0;
   }
 }
