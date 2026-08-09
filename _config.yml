@@ -1,34 +1,13 @@
 title: "Zo-Dns"
-subtitle: "Sit Pls, Ty"
-description: "Security Research | Threat Research, Malware Analysis, RE"
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" # يعطي الخلفية الداكنة
+description: "Security Research | Threat Research, Malware Analysis, RE, DFIR"
+baseurl: ""
+url: "https://zo-dns.github.io"
+github_username: "Zo-Dns"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 plugins:
-  - jekyll-include-cache
-  - jekyll-remote-theme
-
-# إعدادات الشريط الجانبي (Sidebar)
-author:
-  name: "Zo-Dns"
-  avatar: "/assets/images/avatar.png" # يمكنك رفع صورتك هنا لاحقاً
-  bio: "Security Researcher | Threat Research, Malware Analysis, RE, DFIR"
-  location: "Finland"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Zo-Dns"
-
-# إعدادات الترقيم وتأخير الصفحات
-paginate: 5
-paginate_path: "/page:num/"
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "single"
-      author_profile: true
-      read_time: true
-      show_date: true
+  - jekyll-seo-tag
