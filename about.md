@@ -6,7 +6,7 @@ permalink: /about/
 
 ### About Me
 
-Security researcher interested in binary analysis, reverse engineering, and low-level systems.
+Security researcher| malware analysis, reverse engineering, low-level systems, as well as server management and hardening.
 
 ### Contact / Links
 
