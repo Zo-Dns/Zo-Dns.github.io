@@ -58,14 +58,21 @@ a:hover {
   width: 240px;
   flex-shrink: 0;
 }
+
+/* تقييد أبعاد صورة البروفايل بشكل إجباري */
+.sidebar img,
 .profile-avatar {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #ffcc00;
-  margin-bottom: 15px;
+  width: 130px !important;
+  height: 130px !important;
+  max-width: 130px !important;
+  max-height: 130px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 2px solid #ffcc00 !important;
+  margin-bottom: 15px !important;
+  display: block !important;
 }
+
 .author-profile h2 {
   margin: 0 0 5px 0;
   font-size: 20px;
@@ -104,5 +111,9 @@ a:hover {
   .sidebar {
     width: 100%;
     text-align: center;
+  }
+  .sidebar img,
+  .profile-avatar {
+    margin: 0 auto 15px auto !important;
   }
 }
